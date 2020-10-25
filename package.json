@@ -1,0 +1,40 @@
+{
+  "name": "StartQuick",
+  "version": "1.0.0-beta.0",
+  "description": "StartQuick is a dead simple project skeleton that can be used to quickly and easily get you up and running for rapid development environment with your next Bootstrap based website or web app.",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davidsaulrodriguez/quickstart"
+  },
+  "author": "David Rodriguez <david@bsdadm.com>",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/davidsaulrodriguez/quickstart/issues"
+  },
+  "homepage": "https://github.com/davidsaulrodriguez/quickstart#readme",
+  "devDependencies": {
+    "browser-sync": "^2.26.13",
+    "del": "^4.1.1",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^6.1.0",
+    "gulp-minify": "^3.1.0",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^4.1.0",
+    "gulp-sourcemaps": "^2.6.5"
+  },
+  "dependencies": {
+    "bootstrap": "^4.5.3",
+    "jquery": "^3.5.1",
+    "popper.js": "^1.16.1"
+  },
+  "browserslist": [
+    "defaults",
+    "not IE 11",
+    "not IE_Mob 11",
+    "maintained node versions"
+  ]
+}
