@@ -1,14 +1,22 @@
 <h1 align="center">Responsive Portfolio</h1>
 <h3 align="center">Unit 2 Homework Assignment for BCS</h3>
 
+---
+
+### Check It Out
+
+[View the live portfolio site][site]
+
+---
+
 ### Directions
  * 3 pages (```index.html```, ```contact.html```, and ```portfolio.html```)
  * Using Bootstrap, develop your portfolio site with the following items:
    - A navbar
    - A responsive layout
    - Responsive images
-  * The Bootstrap portfolio should minimize the use of media queries.
-  * Screenshots are provided as a reference in the `Assets/Images` folder. Your app does not need to be _exactly_ like the images. Use Bootstrap to create a similar, responsive layout.
+ * The Bootstrap portfolio should minimize the use of media queries.
+ * Screenshots are provided as a reference in the `Assets/Images` folder. Your app does not need to be _exactly_ like the images. Use Bootstrap to create a similar, responsive layout.
 
 ### Hints
 
@@ -54,3 +62,4 @@ Found a bug? Having a suggestion? Open a new issue [here](https://github.com/dav
 This project and all of its source code is released and permissively licensed under the [BSD 2 Clause](LICENSE.md) license.
 
 [StartQuick]: https://github.com/davidsaulrodriguez/startquick/
+[site]: https://davidsaulrodriguez.github.io/responsive-portfolio-hw/
