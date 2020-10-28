@@ -42,6 +42,7 @@ var styleDist = './assets/css';
 
 task('scss', function() {
   return src(['node_modules/bootstrap/scss/bootstrap.scss',
+  '!src/scss/*.html',
   'src/scss/**.scss'])
   .pipe(sourcemap.init())
   .pipe(sass({
@@ -98,6 +99,7 @@ task('scss-dist', function() {
   console.log("\t\tCompiling your Sass files...");
   return src(['node_modules/bootstrap/scss/bootstrap.scss',
   'src/scss/**',
+  '!src/scss/**.html',
   'src/scss/!*.scss'])
   .pipe(sourcemap.init())
   .pipe(sass({
