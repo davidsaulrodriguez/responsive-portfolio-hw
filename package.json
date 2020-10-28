@@ -1,6 +1,6 @@
 {
   "name": "StartQuick",
-  "version": "1.0.0-beta.0",
+  "version": "1.0.0-beta.1",
   "description": "StartQuick is a dead simple project skeleton that can be used to quickly and easily get you up and running for rapid development environment with your next Bootstrap based website or web app.",
   "main": "gulpfile.js",
   "scripts": {

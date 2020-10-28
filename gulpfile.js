@@ -1,5 +1,5 @@
 /*
- * StartQuick v1.0.0-beta.0 (https://bsdadm.com/projects/quickstart)
+ * StartQuick v1.0.0-beta.1 (https://bsdadm.com/projects/quickstart)
  * Copyright 2020 StartQuick Authors (https://github.com/davidsaulrodriguez/quickstart/graphs/master)
  * Licensed under BSD 2 Clause (https://github.com/davidsaulrodriguez/quickstart/blob/master/LICENSE)
  */
@@ -26,15 +26,15 @@ var styleSrc = '/src/scss/**'
 
 /* Where the live server build should go */
 var devRoot = 'dev/';
-var jsDevDist = 'dev/dist/js';
-var imgDevDist = 'dev/dist/imgs';
-var styleDevDist = 'dev/dist/css';
+var jsDevDist = 'dev/assets/js';
+var imgDevDist = 'dev/assets/imgs';
+var styleDevDist = 'dev/assets/css';
 
 /* Where the production ready build should go */
 var distRoot = './';
-var jsDist = './dist/js';
-var imgDist = './dist/imgs';
-var styleDist = './dist/css';
+var jsDist = './assets/js';
+var imgDist = './assets/imgs';
+var styleDist = './assets/css';
 
 /**
  * DEVLOPMENT TASKS
@@ -161,7 +161,7 @@ task('watch', function() {
 
 task('help', function(done) {
   console.log("\n");
-  console.log("\t\t\t\tStartQuick v1.0.0-beta.0");
+  console.log("\t\t\t\tStartQuick v1.0.0-beta.1");
   console.log("\t\tcreated by: David S. Rodriguez <david@bsdadm.com>");
   console.log("\n\n");
   console.log("\tWelcome to StartQuick. This quick command guide should");
@@ -185,7 +185,7 @@ task('help', function(done) {
   console.log("\tclean\t- Delete the 'dev/' folder that contains your compiled");
   console.log("\t\t  project, for use with the live server.");
   console.log("\n");
-  console.log("\tcompile\t- This command compiles and builds all of your source");
+  console.log("\tcompile\t- This command compassetsiles and builds all of your source");
   console.log("\t\t  code into a folder called 'built/' that is in the root");
   console.log("\t\t  directory of this project, for deploying into production.");
   console.log("\n");
@@ -237,7 +237,7 @@ task('cleanUp', function (){
   console.log("\t\tCleaning up and removing the 'dev/' and 'built/' directories.");
   return del([
     './dev/',
-    './dist/',
+    './assets/',
     './*.html'
   ], {force: true})
 });
