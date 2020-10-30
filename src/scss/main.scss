@@ -1,22 +1,53 @@
 /*
- * StartQuick v1.0.0-beta.1 (https://bsdadm.com/projects/quickstart)
+ * StartQuick v1.0.0-beta.0 (https://bsdadm.com/projects/quickstart)
  * Copyright 2020 StartQuick Authors (https://github.com/davidsaulrodriguez/quickstart/graphs/master)
  * Licensed under BSD 2 Clause (https://github.com/davidsaulrodriguez/quickstart/blob/master/LICENSE)
  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap');
+$primary-color: #4AAAA5;
+$secondary-color: #666;
+$heading-font: 'Poppins', sans-serif;
+$text-font: 'Roboto', sans-serif;
+
+h1 {
+  color: $primary-color;
+  font-family: $heading-font;
+}
 
 body {
+  background: url('../imgs/plume.png') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
   margin-bottom: 60px;
+  font-family: $text-font;
+}
+
+.bg-dark {
+  background-color: $secondary-color !important;
+}
+
+.navbar {
+  border-bottom: 5px solid;
+  border-color: $primary-color;
+
+  .navbar-brand {
+    background-color: $primary-color;
+    font-weight: bold;
+    font-family: $heading-font;
+  }
 }
 
 .footer {
-  position:fixed;
-  bottom:0;
-  width:100%;
-  height:60px;
-  text-align:center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  text-align: center;
   color: #fff;
   line-height: 60px;
-  background-color:#666;
+  background-color: $secondary-color;
   border-top: 5px solid;
-  border-color: #4AAAA5;
+  border-color: $primary-color;
 }
