@@ -24,6 +24,14 @@ body {
   font-family: $text-font;
 }
 
+img {
+  margin: 5px;
+}
+
+.flex-column {
+  max-width : 350px;
+}
+
 .bg-dark {
   background-color: $secondary-color !important;
 }
